@@ -53,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ activeSection }) => {
             onClick={() => scrollToSection('home')}
             className="text-xl font-semibold cursor-pointer hover:text-accent-blue transition-colors duration-200"
           >
-            SAB
+            
           </div>
 
           {/* Desktop Navigation */}
