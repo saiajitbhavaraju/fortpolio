@@ -85,14 +85,7 @@ const About = () => {
                 technology with real-world impact.
               </p>
 
-              {/* Fun Fact */}
-              <div className="bg-primary-200 rounded-2xl p-6 border border-primary-300">
-                <p className="text-primary-800 font-medium mb-2">Fun Fact:</p>
-                <p className="text-primary-700">
-                  I built a neural network from scratch using only NumPy that achieved 90%+ accuracy on MNIST. 
-                  No cap, implementing backpropagation manually hits different when you understand every gradient step! 🔥
-                </p>
-              </div>
+              
             </div>
 
             {/* Right Column - Traits Grid */}
