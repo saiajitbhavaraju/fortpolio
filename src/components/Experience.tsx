@@ -163,7 +163,7 @@ const Experience = () => {
             </p>
             <a 
               href="mailto:saiajit.b@gmail.com" 
-              className="inline-flex items-center gap-2 px-6 py-3 bg-primary-900 text-white rounded-full hover:bg-primary-800 transition-all duration-300 transform hover:scale-105"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-primary-900 text-black rounded-full hover:bg-primary-800 transition-all duration-300 transform hover:scale-105"
             >
               Get In Touch
               <ExternalLink size={16} />

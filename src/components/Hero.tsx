@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <button 
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-3 bg-primary-900 text-white rounded-full hover:bg-primary-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+              className="px-8 py-3 bg-primary-900 text-black rounded-full hover:bg-primary-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
             >
               View My Work
             </button>

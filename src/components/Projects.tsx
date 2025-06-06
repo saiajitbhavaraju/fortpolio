@@ -31,7 +31,7 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/167092/pexels-photo-167092.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Python', 'Spotify API', 'Genius API', 'Tkinter', 'Real-time Sync'],
       features: ['Real-time lyrics sync', 'Spotify integration', '100K+ song support', 'Customizable themes'],
-      github: 'https://github.com/saiajitbhavaraju',
+      github: 'https://github.com/saiajitbhavaraju/LyriSync',
       demo: '#',
       status: 'Completed',
       year: '2024'
@@ -42,8 +42,8 @@ const Projects = () => {
       longDescription: 'This project demonstrates deep understanding of neural network fundamentals by implementing a complete neural network from scratch using only NumPy and mathematical principles. The network successfully recognizes handwritten digits with high accuracy.',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Python', 'NumPy', 'MNIST', 'Mathematics', 'Deep Learning'],
-      features: ['Forward propagation', 'Backpropagation', 'Gradient descent', '90%+ accuracy'],
-      github: 'https://github.com/saiajitbhavaraju',
+      features: ['Forward propagation', 'Backpropagation', 'Gradient descent', '95%+ accuracy'],
+      github: 'https://www.kaggle.com/code/saiajitbhavaraju/neural-network-mnist/',
       demo: '#',
       status: 'Completed',
       year: '2024'
@@ -55,7 +55,7 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800',
       technologies: ['Next.js', 'JavaScript', 'TailwindCSS', 'Algorithms', 'Visualization'],
       features: ['4 sorting algorithms', '2 pathfinding algorithms', 'Smooth animations', 'Interactive controls'],
-      github: 'https://github.com/saiajitbhavaraju',
+      github: 'https://github.com/saiajitbhavaraju/Visualiizers',
       demo: '#',
       status: 'Completed',
       year: '2024'
@@ -65,9 +65,9 @@ const Projects = () => {
       description: 'LSTM + XGBoost hybrid model for predicting power consumption in Odisha using 6+ years of historical data.',
       longDescription: 'Advanced time series forecasting project developing a hybrid model combining LSTM and XGBoost to predict power consumption patterns. Currently optimizing with BEATS and NHiTS architectures to achieve sub-5% MAPE.',
       image: 'https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=800',
-      technologies: ['Python', 'TensorFlow', 'XGBoost', 'LSTM', 'Time Series'],
-      features: ['Hybrid ML model', '6+ years data', 'BEATS optimization', '<5% MAPE target'],
-      github: 'https://github.com/saiajitbhavaraju',
+      technologies: ['Python', 'TensorFlow', 'XGBoost', 'LSTM', 'Time Series', 'N-BEATS', 'NHiTS'],
+      features: ['Hybrid ML model', '6+ years data', 'N-BEATS/N-HiTS optimization', '<5% MAPE target'],
+      github: 'https://www.kaggle.com/code/saiajitbhavaraju/lstm-xgb-final',
       demo: '#',
       status: 'In Progress',
       year: '2025'
@@ -187,7 +187,7 @@ const Projects = () => {
                   href={projects[selectedProject].github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-6 py-3 bg-primary-900 text-white rounded-full hover:bg-primary-800 transition-all duration-300 transform hover:scale-105"
+                  className="flex items-center gap-2 px-6 py-3 bg-primary-900 text-black rounded-full hover:bg-primary-800 transition-all duration-300 transform hover:scale-105"
                 >
                   <Github size={18} />
                   View Code
