@@ -33,7 +33,7 @@ const Projects = () => {
       features: ['Real-time lyrics sync', 'Spotify integration', '100K+ song support', 'Customizable themes'],
       github: 'https://github.com/saiajitbhavaraju/LyriSync',
       demo: '#',
-      status: ' ',
+      status: '',
       year: '2024'
     },
     {
@@ -45,7 +45,7 @@ const Projects = () => {
       features: ['Forward propagation', 'Backpropagation', 'Gradient descent', '95%+ accuracy'],
       github: 'https://www.kaggle.com/code/saiajitbhavaraju/neural-network-mnist/',
       demo: '#',
-      status: ' ',
+      status: '',
       year: '2024'
     },
     {
@@ -57,7 +57,7 @@ const Projects = () => {
       features: ['4 sorting algorithms', '2 pathfinding algorithms', 'Smooth animations', 'Interactive controls'],
       github: 'https://github.com/saiajitbhavaraju/Visualiizers',
       demo: '#',
-      status: ' ',
+      status: '',
       year: '2024'
     },
     {
@@ -69,7 +69,7 @@ const Projects = () => {
       features: ['Hybrid ML model', '6+ years data', 'N-BEATS/N-HiTS optimization', '<5% MAPE target'],
       github: 'https://www.kaggle.com/code/saiajitbhavaraju/lstm-xgb-final',
       demo: '#',
-      status: ' ',
+      status: '',
       year: '2025'
     }
   ];
