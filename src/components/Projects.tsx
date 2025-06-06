@@ -118,15 +118,7 @@ const Projects = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               
               {/* Status Badge */}
-              <div className="absolute top-4 left-4">
-                <span className={`px-3 py-1 rounded-full text-sm font-medium ${
-                  projects[selectedProject].status === 'Completed' 
-                    ? 'bg-accent-green text-white' 
-                    : 'bg-accent-green text-white'
-                }`}>
-                  {projects[selectedProject].status}
-                </span>
-              </div>
+              
             </div>
 
             {/* Project Details */}
@@ -228,15 +220,7 @@ const Projects = () => {
                       alt={project.title}
                       className="w-full h-full object-cover"
                     />
-                    <div className="absolute top-3 right-3">
-                      <span className={`px-2 py-1 rounded-full text-xs font-medium ${
-                        project.status === 'Completed' 
-                          ? 'bg-accent-green text-white' 
-                          : 'bg-accent-green text-white'
-                      }`}>
-                        {project.status}
-                      </span>
-                    </div>
+                    
                   </div>
                   
                   <div className="p-6">
