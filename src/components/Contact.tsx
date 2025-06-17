@@ -81,7 +81,7 @@ const Contact = () => {
       icon: <ExternalLink size={20} />,
       name: 'LeetCode',
       url: 'https://leetcode.com',
-      username: 'Rating: 1651'
+      username: 'saijitb'
     }
   ];
 
